@@ -19,25 +19,29 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"scott-zheng.github.io","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.14.1","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="Somewhere for motivating self to improve">
-<meta property="og:type" content="website">
+    <meta name="description" content="1. IDFV参考链接  供应商标识符 (IDFV) 是开发者为应用指定的代码，设备上属于该开发者的所有应用都拥有同一个 IDFV。  IDFV（Identifier For Vendor）是用于给Vendor标识用户，每个设备在所属同一个Vender的应用里，都有相同的值。形如：95955F33-BFBD-48BA-A630-866D2DAE482D。根据官方文档，iOS7以后，应用 bundl">
+<meta property="og:type" content="article">
 <meta property="og:title" content="ScoTT&#39;s Blog">
-<meta property="og:url" content="https://scott-zheng.github.io/index.html">
+<meta property="og:url" content="https://scott-zheng.github.io/2023/01/02/iOS%E8%AE%BE%E5%A4%87%E5%94%AF%E4%B8%80%E6%A0%87%E8%AF%86/index.html">
 <meta property="og:site_name" content="ScoTT&#39;s Blog">
-<meta property="og:description" content="Somewhere for motivating self to improve">
+<meta property="og:description" content="1. IDFV参考链接  供应商标识符 (IDFV) 是开发者为应用指定的代码，设备上属于该开发者的所有应用都拥有同一个 IDFV。  IDFV（Identifier For Vendor）是用于给Vendor标识用户，每个设备在所属同一个Vender的应用里，都有相同的值。形如：95955F33-BFBD-48BA-A630-866D2DAE482D。根据官方文档，iOS7以后，应用 bundl">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://pfp.ps.netease.com/kmspvt/file/6274f257cd0548516adb37dcfm89jXsg01?sign=k5aLxGqzNk83YEST4na6-1FF8vw=&expire=1672676947">
+<meta property="article:published_time" content="2023-01-02T11:30:35.413Z">
+<meta property="article:modified_time" content="2023-01-02T11:39:39.332Z">
 <meta property="article:author" content="ScoTT Zheng">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://pfp.ps.netease.com/kmspvt/file/6274f257cd0548516adb37dcfm89jXsg01?sign=k5aLxGqzNk83YEST4na6-1FF8vw=&expire=1672676947">
 
 
-<link rel="canonical" href="https://scott-zheng.github.io/">
+<link rel="canonical" href="https://scott-zheng.github.io/2023/01/02/iOS%E8%AE%BE%E5%A4%87%E5%94%AF%E4%B8%80%E6%A0%87%E8%AF%86/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"en","comments":"","permalink":"","path":"index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://scott-zheng.github.io/2023/01/02/iOS%E8%AE%BE%E5%A4%87%E5%94%AF%E4%B8%80%E6%A0%87%E8%AF%86/","path":"2023/01/02/iOS设备唯一标识/","title":""}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>ScoTT's Blog</title>
+<title> | ScoTT's Blog</title>
   
 
 
@@ -70,7 +74,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <h1 class="site-title">ScoTT's Blog</h1>
+      <p class="site-title">ScoTT's Blog</p>
       <i class="logo-line"></i>
     </a>
   </div>
@@ -96,7 +100,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           Table of Contents
@@ -109,6 +113,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-IDFV"><span class="nav-number">1.</span> <span class="nav-text">1. IDFV</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95"><span class="nav-number">1.1.</span> <span class="nav-text"># 使用方法</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#1-%E4%BC%98%E7%82%B9"><span class="nav-number">1.2.</span> <span class="nav-text">1) 优点</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-%E7%BC%BA%E7%82%B9"><span class="nav-number">1.3.</span> <span class="nav-text">2) 缺点</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E4%B8%89%E6%96%B9%E5%BA%93-SimulateIDFA"><span class="nav-number">2.</span> <span class="nav-text">2. 三方库 - SimulateIDFA</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-%E4%BC%98%E7%82%B9-1"><span class="nav-number">2.1.</span> <span class="nav-text">1) 优点</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-%E7%BC%BA%E7%82%B9-1"><span class="nav-number">2.2.</span> <span class="nav-text">2) 缺点</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E8%B7%A8APP%E5%85%B1%E4%BA%AB%E6%95%B0%E6%8D%AE"><span class="nav-number">3.</span> <span class="nav-text">3. 跨APP共享数据</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-UIPasteBoard"><span class="nav-number">3.1.</span> <span class="nav-text">1) UIPasteBoard</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#a-%E5%85%B1%E4%BA%AB%E8%8C%83%E5%9B%B4"><span class="nav-number">3.1.1.</span> <span class="nav-text">a) 共享范围</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#b-%E6%8C%81%E4%B9%85%E6%80%A7"><span class="nav-number">3.1.2.</span> <span class="nav-text">b) 持久性</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-KeyChain"><span class="nav-number">3.2.</span> <span class="nav-text">2) KeyChain</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E7%89%B9%E7%82%B9"><span class="nav-number">3.2.1.</span> <span class="nav-text"># 特点</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#a-IDFV-KeyChain"><span class="nav-number">3.2.2.</span> <span class="nav-text">a) IDFV + KeyChain</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#b-%E8%B7%A8APP%E5%85%B1%E4%BA%AB%E5%85%B6%E4%BB%96%E6%95%B0%E6%8D%AE"><span class="nav-number">3.2.3.</span> <span class="nav-text">b) 跨APP共享其他数据</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-App-Groups"><span class="nav-number">3.3.</span> <span class="nav-text">3) App Groups</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#a-%E7%BB%93%E5%90%88-NSUserDefaults%EF%BC%8C%E5%85%B1%E4%BA%AB%E5%B0%91%E9%87%8F%E6%95%B0%E6%8D%AE"><span class="nav-number">3.3.1.</span> <span class="nav-text">a) 结合 NSUserDefaults，共享少量数据</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#b-%E7%BB%93%E5%90%88-NSFileManager-x2F-NSFilePresenter%E7%AD%89%E7%AD%89%EF%BC%8C%E5%85%B1%E4%BA%AB%E6%95%B0%E6%8D%AE%E6%96%87%E4%BB%B6"><span class="nav-number">3.3.2.</span> <span class="nav-text">b) 结合 NSFileManager&#x2F;NSFilePresenter等等，共享数据文件</span></a></li></ol></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -143,16 +148,17 @@
 
     </div>
 
-    <div class="main-inner index posts-expand">
+    <div class="main-inner post posts-expand">
 
-    
+
+  
 
 
 <div class="post-block">
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
     <link itemprop="mainEntityOfPage" href="https://scott-zheng.github.io/2023/01/02/iOS%E8%AE%BE%E5%A4%87%E5%94%AF%E4%B8%80%E6%A0%87%E8%AF%86/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -166,13 +172,13 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | ScoTT's Blog">
+      <meta itemprop="name" content=" | ScoTT's Blog">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2023/01/02/iOS%E8%AE%BE%E5%A4%87%E5%94%AF%E4%B8%80%E6%A0%87%E8%AF%86/" class="post-title-link" itemprop="url">Untitled</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          
+        </h1>
 
         <div class="post-meta-container">
           <div class="post-meta">
@@ -196,7 +202,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h3 id="1-IDFV"><a href="#1-IDFV" class="headerlink" title="1. IDFV"></a>1. IDFV</h3><p><a target="_blank" rel="noopener" href="https://developer.apple.com/documentation/uikit/uidevice/1620059-identifierforvendor?language=objc">参考链接</a></p>
+        <h3 id="1-IDFV"><a href="#1-IDFV" class="headerlink" title="1. IDFV"></a>1. IDFV</h3><p><a target="_blank" rel="noopener" href="https://developer.apple.com/documentation/uikit/uidevice/1620059-identifierforvendor?language=objc">参考链接</a></p>
 <blockquote>
 <p>供应商标识符 (IDFV) 是开发者为应用指定的代码，设备上属于该开发者的所有应用都拥有同一个 IDFV。</p>
 </blockquote>
@@ -239,7 +245,6 @@
 <figure class="highlight objectivec"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// APP A set</span></span><br><span class="line"><span class="built_in">NSUserDefaults</span> *myDefaults = [[<span class="built_in">NSUserDefaults</span> alloc] initWithSuiteName:<span class="string">@&quot;group.com.netease.cloudmusic&quot;</span>];</span><br><span class="line">[myDefaults setObject:<span class="string">@&quot;value&quot;</span> forKey:<span class="string">@&quot;key&quot;</span>];</span><br><span class="line"></span><br><span class="line"><span class="comment">// APP B get</span></span><br><span class="line"><span class="built_in">NSUserDefaults</span> *myDefaults = [[<span class="built_in">NSUserDefaults</span> alloc]initWithSuiteName:<span class="string">@&quot;group.com.netease.cloudmusic&quot;</span>];</span><br><span class="line"><span class="built_in">NSString</span> *content = [myDefaults objectForKey:<span class="string">@&quot;key&quot;</span>];</span><br></pre></td></tr></table></figure>
 </blockquote>
 <h5 id="b-结合-NSFileManager-x2F-NSFilePresenter等等，共享数据文件"><a href="#b-结合-NSFileManager-x2F-NSFilePresenter等等，共享数据文件" class="headerlink" title="b) 结合 NSFileManager&#x2F;NSFilePresenter等等，共享数据文件"></a><strong>b) 结合 NSFileManager&#x2F;NSFilePresenter等等，共享数据文件</strong></h5>
-      
     </div>
 
     
@@ -247,189 +252,22 @@
     
 
     <footer class="post-footer">
-        <div class="post-eof"></div>
-      
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2023/01/02/iOS%E9%95%82%E7%A9%BA%E6%96%87%E6%9C%AC/" rel="prev" title="iOS镂空文本Label">
+                  <i class="fa fa-chevron-left"></i> iOS镂空文本Label
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
     </footer>
   </article>
 </div>
 
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://scott-zheng.github.io/2023/01/02/iOS%E9%95%82%E7%A9%BA%E6%96%87%E6%9C%AC/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="ScoTT Zheng">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="ScoTT's Blog">
-      <meta itemprop="description" content="Somewhere for motivating self to improve">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | ScoTT's Blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2023/01/02/iOS%E9%95%82%E7%A9%BA%E6%96%87%E6%9C%AC/" class="post-title-link" itemprop="url">iOS镂空文本Label</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-      
-
-      <time title="Created: 2023-01-02 19:19:02 / Modified: 19:22:11" itemprop="dateCreated datePublished" datetime="2023-01-02T19:19:02+08:00">2023-01-02</time>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p><img src="http://pfp.ps.netease.com/kmspvt/file/62b1852fcd0548725aa045feGCAsYLgu01?sign=YPf1QnACIGUhqTiPd1glSuaW-6M=&expire=1672676012" alt="cutout.jpg"></p>
-<p>在绘制 drawRect 中做一些操作，来达到镂空文字的效果</p>
-<ol>
-<li>Bitmap Mask</li>
-<li>Blend Mode</li>
-</ol>
-<h2 id="Bitmap-Mask"><a href="#Bitmap-Mask" class="headerlink" title="Bitmap Mask"></a>Bitmap Mask</h2><p><img src="http://pfp.ps.netease.com/kmspvt/file/62b1853bbab62f923d547120Xt6qFPtr01?sign=_uInbPUBrKmPnvWaSfFOd_6U_OE=&expire=1672676012" alt="bitmapmask.png"></p>
-<pre><code>思路： 在label的context上加一个mask，然后在context上画整个背景色时，文字对应位置会被mask过滤掉
-</code></pre>
-<ol>
-<li><code>CGImageMaskCreate</code></li>
-<li><code>CGContextClipToMask</code></li>
-<li><code>CGContextFillRect</code></li>
-</ol>
-<h3 id="CGImage-Mask"><a href="#CGImage-Mask" class="headerlink" title="CGImage Mask"></a>CGImage Mask</h3><blockquote>
-<p>官方描述： A bitmap image mask is used the same way an artist uses a silkscreen</p>
-</blockquote>
-<p><img src="http://pfp.ps.netease.com/kmspvt/file/62b18546bab62f976b717f24w1JEv8Rq01?sign=kEzyVSLkpvIF9O-tGExwnD5VdbQ=&expire=1672676012" alt="silkscreen.jpeg"></p>
-<p><a target="_blank" rel="noopener" href="https://developer.apple.com/documentation/coregraphics/1455089-cgimagemaskcreate">官方文档</a></p>
-<blockquote>
-<p>  Each sample value in the mask specifies how much of the current fill color is masked out at a specific location. Effectively, the sample value specifies the opacity of the mask. <strong>Larger values represent greater opacity and hence less color applied to the page.</strong><br> …<br>  The fill color is painted as if it has an alpha value of <strong>(1 – MaskSampleValue)</strong>. For example, if the sample value of an 8-bit mask scales to 0.8, the current fill color is painted as if it has an alpha value of 0.2, that is (1–0.8).</p>
-</blockquote>
-<pre><code>因此，确保label textColor 为白色，backgronColor为clear color，即可达到镂空文字的效果
-</code></pre>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">/// in drawRect</span><br><span class="line"></span><br><span class="line">    // 把text画在临时context，存下bitmap</span><br><span class="line">    UIGraphicsBeginImageContextWithOptions(rect.size, false, 0.0);</span><br><span class="line">    CGContextRef context = UIGraphicsGetCurrentContext();</span><br><span class="line">    [super drawRect:rect];</span><br><span class="line">    </span><br><span class="line">    context = UIGraphicsGetCurrentContext();</span><br><span class="line">    </span><br><span class="line">    // 上下反一下，因为 Quartz2d 坐标系y轴反的</span><br><span class="line">    CGContextConcatCTM(context, CGAffineTransformMake(1, 0, 0, -1, 0, CGRectGetHeight(rect)));</span><br><span class="line"></span><br><span class="line">    /*</span><br><span class="line">     The fill color is painted as if it has an alpha value of (1 – MaskSampleValue).</span><br><span class="line">     让文字部分MaskSampleValue = 1; 背景部分MaskSampleValue = 0</span><br><span class="line">    */</span><br><span class="line">    CGImageRef mask = CGImageMaskCreate(CGImageGetWidth(image), CGImageGetHeight(image), CGImageGetBitsPerComponent(image), CGImageGetBitsPerPixel(image), CGImageGetBytesPerRow(image), CGImageGetDataProvider(image), CGImageGetDecode(image), CGImageGetShouldInterpolate(image));</span><br><span class="line">    CFRelease(image); image = NULL;</span><br><span class="line">    </span><br><span class="line">    CGContextClearRect(context, rect);</span><br><span class="line">    </span><br><span class="line">    CGContextSaveGState(context);</span><br><span class="line">    </span><br><span class="line">    // 把mask剪切到当前context上，后续画在context上的东西都会被mask过滤一遍</span><br><span class="line">    CGContextClipToMask(context, rect, mask);</span><br><span class="line">    CFRelease(mask); mask = NULL;</span><br><span class="line">    </span><br><span class="line">    // 画背景（文字部分会被过滤）</span><br><span class="line">    CGContextRef context = UIGraphicsGetCurrentContext();</span><br><span class="line">    [_backgroundColor set];</span><br><span class="line">    CGContextFillRect(context, rect);</span><br></pre></td></tr></table></figure>
-
-<h2 id="Blend-Mode"><a href="#Blend-Mode" class="headerlink" title="Blend Mode"></a>Blend Mode</h2><p><img src="http://pfp.ps.netease.com/kmspvt/file/62b185509355992701f63027NoBsBUl601?sign=XEcVxTH308JYsK8z8_7ZK8QAUCg=&expire=1672676012" alt="blendmode.png"></p>
-<pre><code>思路：先画背景，在在特定的 blendmode 下，将原本的绘制画到背景上
-</code></pre>
-<h3 id="CGBlendMode"><a href="#CGBlendMode" class="headerlink" title="CGBlendMode"></a>CGBlendMode</h3><p><a target="_blank" rel="noopener" href="https://developer.apple.com/library/archive/documentation/GraphicsImaging/Conceptual/drawingwithquartz2d/dq_paths/dq_paths.html#//apple_ref/doc/uid/TP30001066-CH211-BCIGICEF">官方文档</a></p>
-<blockquote>
-<p>Blend modes specify how Quartz applies paint over a background. Quartz uses normal blend mode by default, which combines the foreground painting with the background painting using the following formula:<br><strong>result &#x3D; (alpha * foreground) + (1 - alpha) * background</strong></p>
-</blockquote>
-<p>alpha是foreground的不透明度，所以normal mode下，上面的图完全不透明的话就会完全盖住下面的图</p>
-<h3 id="kCGBlendModeDestinationOut"><a href="#kCGBlendModeDestinationOut" class="headerlink" title="kCGBlendModeDestinationOut"></a>kCGBlendModeDestinationOut</h3><p><code>/* formula: R = D*(1 - Sa) ==&gt; result = background ** (1 - alpha of foreground) */</code>	<br><code>CGContextSetBlendMode(context, kCGBlendModeDestinationOut);</code><br>上面图的透明度（1-alpha) 决定了最后呈现的效果，foreground完全透明的部分，R&#x3D;D；完全不透明的部分，R&#x3D;0。</p>
-<pre><code>因此，确保innerLabel的textColor alpha为1，backgroundColor alpha为0，即可达到镂空文字的效果
-</code></pre>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">  // 绘制状态保存</span><br><span class="line">  CGContextSaveGState(context);</span><br><span class="line">  </span><br><span class="line">  // 当前绘制状态下，设置blendMode </span><br><span class="line">  CGContextSetBlendMode(context, kCGBlendModeDestinationOut);  /* R = D*(1 - Sa) */</span><br><span class="line">  </span><br><span class="line">  [super drawTextInRect:rect];</span><br><span class="line">  </span><br><span class="line">  UILabel *innerLabel = [[UILabel alloc] initWithFrame:rect];</span><br><span class="line">  innerLabel.backgroundColor = [UIColor clearColor];</span><br><span class="line">  innerLabel.text = text;</span><br><span class="line"></span><br><span class="line">  innerLabel.font = self.font;</span><br><span class="line">  innerLabel.adjustsFontSizeToFitWidth = self.adjustsFontSizeToFitWidth;</span><br><span class="line">  innerLabel.textAlignment = self.textAlignment;</span><br><span class="line">// ....</span><br><span class="line">  </span><br><span class="line">  </span><br><span class="line">  /* R = D*(1 - Sa) */</span><br><span class="line">  /* 把文本按blendMode画下来,所以innerLabel透明度(1-Sa)决定最终R值是底色D的多少倍</span><br><span class="line">   确保 Sa = 1 ==&gt; innerLabel的文本部分 textColor.alpha = 1 ==&gt; R = 0</span><br><span class="line">   确保 Sa = 0 ==&gt; innerLabel的背景部分 textColor.backgroundColor.alpha = 0 ==&gt; R = D</span><br><span class="line">   */</span><br><span class="line">  innerLabel.backgroundColor = [UIColor clearColor];</span><br><span class="line">  innerLabel.textColor = [UIColor blackColor];</span><br><span class="line">  [innerLabel.layer renderInContext:context];</span><br><span class="line">  </span><br><span class="line">  // 绘制状态恢复</span><br><span class="line">  CGContextRestoreGState(context);</span><br></pre></td></tr></table></figure>
-
-<h4 id="简化思路…"><a href="#简化思路…" class="headerlink" title="简化思路…"></a>简化思路…</h4><p><img src="http://pfp.ps.netease.com/kmspvt/file/62b185776d46260c707ba86fcIZQTa9P01?sign=N2gNV0AxMHuhV-xn1jZG7L0oYDE=&expire=1672676012" alt="blendmode2.png"></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">/// in drawTextInRect</span><br><span class="line"></span><br><span class="line">    // 绘制状态保存</span><br><span class="line">    CGContextSaveGState(context);</span><br><span class="line">    </span><br><span class="line">    // 当前绘制状态下，设置blendMode </span><br><span class="line">	  CGContextSetBlendMode(context, kCGBlendModeClear); // 画文字的时候直接clear，文字对应区域 R = 0</span><br><span class="line">    // CGContextSetBlendMode(context, kCGBlendModeDestinationOut);</span><br><span class="line">	//  CGContextSetBlendMode(context, kCGBlendModeSourceOut);</span><br><span class="line">    </span><br><span class="line">    // 绘制文本</span><br><span class="line">    [super drawTextInRect:rect];</span><br><span class="line">    </span><br><span class="line">    // 绘制状态恢复</span><br><span class="line">    CGContextRestoreGState(context);</span><br></pre></td></tr></table></figure>
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://scott-zheng.github.io/2023/01/02/Welcome/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="ScoTT Zheng">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="ScoTT's Blog">
-      <meta itemprop="description" content="Somewhere for motivating self to improve">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | ScoTT's Blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2023/01/02/Welcome/" class="post-title-link" itemprop="url">Welcome!</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-      
-
-      <time title="Created: 2023-01-02 16:56:10 / Modified: 19:06:37" itemprop="dateCreated datePublished" datetime="2023-01-02T16:56:10+08:00">2023-01-02</time>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
 
 
 
